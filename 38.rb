@@ -15,3 +15,4 @@ class Article
 end
 
 article = Article.new("阿部", "Rubyの素晴らしさについて", "Awesome Ruby!")
+article.display
