@@ -7,3 +7,5 @@ class Article
   end
 
 end
+
+article = Article.new("阿部", "Rubyの素晴らしさについて", "Awesome Ruby!")
