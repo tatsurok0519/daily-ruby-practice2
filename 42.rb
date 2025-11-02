@@ -1,7 +1,7 @@
 def search(target_num, input)
   input.each_with_index  do |num, i|
     if num == target_num
-      puts "#{i}番目にあります"
+      puts "#{i+1}番目にあります"
       return
     end
   end
