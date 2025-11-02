@@ -1,5 +1,5 @@
 def check_name(str) 
-  # 処理を記述
+  if str.include?(".")
 end
 
 puts "登録したい名前を入力してください(例)YamadaTaro"
