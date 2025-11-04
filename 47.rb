@@ -1,5 +1,5 @@
 class Fruit
- def クラスメソッド
+ def self.fresh
    # 正しくメソッドを定義した上で、ここに処理を記入してください
  end
 
