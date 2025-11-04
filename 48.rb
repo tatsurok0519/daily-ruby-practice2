@@ -1,5 +1,6 @@
 def missing_char(str, n)
-  # 処理を記述
+  str.slice!(n-1)
+  
 end
 
 
