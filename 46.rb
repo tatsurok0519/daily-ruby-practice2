@@ -1,5 +1,9 @@
 def in1to10(num, outside_mode)
-  # ここに条件式を記述する
+  if outside_mode || (num >= 1 && num <= 10)
+    puts "true"
+  else
+    puts "false"
+  end
 end
 
 # 呼び出し例
