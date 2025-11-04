@@ -4,7 +4,8 @@ class Fruit
  end
 
  def initialize
-   # ここに処理を記入してください
+   @name = name
+   @price = price
  end
 
  def インスタンスメソッド
