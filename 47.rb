@@ -8,7 +8,7 @@ class Fruit
    @price = price
  end
 
- def インスタンスメソッド
+ def introduce
    # 正しくメソッドを定義した上で、ここに処理を記入してください
  end
 end
