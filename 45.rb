@@ -3,4 +3,5 @@ fruits_price = [["apple", [200, 250, 220]],
 ["melon", [1200, 1500]]]
 
 fruits_price.each do |name, prices|
+  prices.sum
   
