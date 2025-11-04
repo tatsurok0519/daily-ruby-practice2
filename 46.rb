@@ -1,8 +1,8 @@
 def in1to10(num, outside_mode)
   if outside_mode || (num >= 1 && num <= 10)
-    puts "true"
+    puts "True"
   else
-    puts "false"
+    puts "False"
   end
 end
 
