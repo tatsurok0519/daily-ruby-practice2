@@ -1,5 +1,9 @@
 def police_trouble(a, b)
-  # ここに条件式を記述する
+  if a && b
+    puts true
+  else
+    puts false
+  end
 end
 
 # 呼び出し例
