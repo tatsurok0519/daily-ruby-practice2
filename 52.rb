@@ -1,5 +1,9 @@
 def parrot_trouble(talking, hour)
-  # ここに条件式を実装する
+  if talking && (hour > 20 || hour < 7)
+    puts "NG"
+  else
+    puts "OK"
+  end
 end
 
 # 呼び出し例
