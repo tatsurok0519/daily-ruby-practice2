@@ -1,6 +1,6 @@
 class Fruit
  def self.fresh
-   # 正しくメソッドを定義した上で、ここに処理を記入してください
+  puts "採れたて新鮮な果実です"
  end
 
  def initialize
