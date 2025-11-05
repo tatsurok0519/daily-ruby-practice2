@@ -1,5 +1,9 @@
 def sleep_in(is_weekday, is_vacation)
-  # ここに条件式を実装する
+  if is_weekday && !is_vacation
+    puts "False"
+  else
+    puts "True"
+  end
 end
 
 # 呼び出し例
