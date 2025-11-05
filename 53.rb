@@ -1,5 +1,6 @@
 def count_evens(nums)
-  nums.count(&:num.even?)
+  puts nums.count(&:num.even?)
+end
 
 count_evens([2, 1, 2, 3, 4])
 count_evens([2, 2, 0])
