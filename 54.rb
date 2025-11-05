@@ -1,5 +1,9 @@
 def array123(nums)
   if nums.include?(1 && 2 && 3)
+    puts true
+  else
+    puts false
+  end
 end
 
 # 呼び出し例
