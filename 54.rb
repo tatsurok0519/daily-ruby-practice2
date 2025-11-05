@@ -1,5 +1,5 @@
 def array123(nums)
-  # 処理を記述
+  if nums.include?(1 && 2 && 3)
 end
 
 # 呼び出し例
